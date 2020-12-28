@@ -1,0 +1,16 @@
+{
+  "git": {
+    "requireBranch": "master",
+    "commitMessage": "[release] ${version}",
+    "tagAnnotation": "${version}",
+    "commit": true,
+    "tag": true,
+    "push": true
+  },
+  "npm": {
+    "publish": false
+  },
+  "github": {
+    "release": true
+  }
+}
