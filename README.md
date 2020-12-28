@@ -12,7 +12,9 @@ These stuff are my personal CLI tools.
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
 ```sh-session
 $ npm install -g @whyking/viking-tool
@@ -26,31 +28,12 @@ USAGE
 ...
 ```
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
-* [`viking-tool hello [FILE]`](#viking-tool-hello-file)
 * [`viking-tool help [COMMAND]`](#viking-tool-help-command)
-* [`viking-tool quote [FILE]`](#viking-tool-quote-file)
-
-## `viking-tool hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ viking-tool hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ viking-tool hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/whyking/viking-tool/blob/v1.0.0-milestone.1-snapshot/src/commands/hello.ts)_
+* [`viking-tool quote`](#viking-tool-quote)
 
 ## `viking-tool help [COMMAND]`
 
@@ -69,18 +52,28 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.1/src/commands/help.ts)_
 
-## `viking-tool quote [FILE]`
+## `viking-tool quote`
 
-describe the command here
+print a random quote
 
 ```
 USAGE
-  $ viking-tool quote [FILE]
+  $ viking-tool quote
 
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+EXAMPLE
+  $ viking-tool quote
+      ,       ,  /\_[]_/\
+      |\ ___ /| |] _||_ [|
+       -/___\-   \/ || \/
+       (|o o|)      ||
+     __/{\U/}\_ ___/vvv
+    / \  {~}   / _|_ |
+    | /\  ~   /_/   []
+    |_| (____)     ╭─────────────────────────────────────╮
+    \_]/______\    │         Viking's CLI Tools.         │
+       _\_||_/_    │ Version: 1.0.0-milestone.1-snapshot │
+      (_,_||_,_)   ╰─────────────────────────────────────╯
+  "Talk is cheap. Show me the code." (Linus Torvalds)
 ```
 
 _See code: [src/commands/quote.ts](https://github.com/whyking/viking-tool/blob/v1.0.0-milestone.1-snapshot/src/commands/quote.ts)_
