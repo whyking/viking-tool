@@ -1,7 +1,7 @@
 {
   "name": "@whyking/viking-tool",
   "description": "These stuff are my personal CLI tools.",
-  "version": "1.0.0-milestone.1-snapshot",
+  "version": "1.0.0-milestone.1",
   "author": "whyking (https://github.com/whyking/)",
   "bin": {
     "viking-tool": "./bin/run"
