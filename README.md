@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`viking-tool hello [FILE]`](#viking-tool-hello-file)
 * [`viking-tool help [COMMAND]`](#viking-tool-help-command)
+* [`viking-tool quote [FILE]`](#viking-tool-quote-file)
 
 ## `viking-tool hello [FILE]`
 
@@ -67,4 +68,20 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.1/src/commands/help.ts)_
+
+## `viking-tool quote [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ viking-tool quote [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/quote.ts](https://github.com/whyking/viking-tool/blob/v1.0.0-milestone.1-snapshot/src/commands/quote.ts)_
 <!-- commandsstop -->
