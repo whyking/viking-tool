@@ -1,8 +1,5 @@
 import chalk from 'chalk';
-
-const packageJson = require('../package.json');
-
-export const getVersion = () => packageJson.version;
+import { Caller, getVersion } from './viking-tools';
 
 export const getBanner = () => {
   const cliVersion = getVersion();
@@ -31,3 +28,9 @@ export const getBanner = () => {
     chalk.gray('     _\\_||_/_    ')}${chalk.white('│ ')}${chalk.gray('Version: ')}${chalk.green(cliVersion)}${chalk.white(' │')}\n${
     chalk.gray('    (_,_||_,_)   ')}${chalk.white(`╰${horizontalBorder}╯`)}\n`;
 };
+
+export const showBanner = () => (caller: Caller) => new Promise<Caller>((resolve) => {
+  // eslint-disable-next-line no-console
+  console.info(getBanner());
+  resolve(caller);
+});

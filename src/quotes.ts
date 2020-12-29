@@ -1,3 +1,6 @@
+import chalk from 'chalk';
+import { Caller } from './viking-tools';
+
 export const quotes = [
   '"Keep calm and care your code." (Viking)',
   '"Walking on water and developing software from a specification are easy if both are frozen." (Edward V. Berard)',
@@ -22,3 +25,9 @@ export const quotes = [
 ];
 
 export const randomQuote = () => quotes[Math.floor(Math.random() * quotes.length)];
+
+export const showQuote = () => (caller: Caller) => new Promise<Caller>((resolve) => {
+  // eslint-disable-next-line no-console
+  console.info(chalk.blue(randomQuote()));
+  resolve(caller);
+});

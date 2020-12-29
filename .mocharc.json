@@ -7,8 +7,9 @@
   ],
   "recursive": true,
   "reporter": "spec",
-  "timeout": 5000,
+  "timeout": 60000,
   "watch-files": [
+    "test/**/*.test.ts",
     "test/**/*.spec.ts"
   ]
 }
