@@ -21,7 +21,7 @@ $ npm install -g @whyking/viking-tool
 $ viking-tool COMMAND
 running command...
 $ viking-tool (-v|--version|version)
-@whyking/viking-tool/1.0.0-milestone.2-snapshot linux-x64 node-v14.15.2
+@whyking/viking-tool/1.0.0-milestone.2 linux-x64 node-v14.15.2
 $ viking-tool --help [COMMAND]
 USAGE
   $ viking-tool COMMAND
@@ -53,21 +53,21 @@ DESCRIPTION
 
 EXAMPLE
   $ viking-tool cleanup-projects
-      ,       ,  /\_[]_/\
-      |\ ___ /| |] _||_ [|
-       -/___\-   \/ || \/
-       (|o o|)      ||
-     __/{\U/}\_ ___/vvv
-    / \  {~}   / _|_ |
-    | /\  ~   /_/   []
-    |_| (____)     ╭─────────────────────────────────────╮
-    \_]/______\    │         Viking's CLI Tools.         │
-       _\_||_/_    │ Version: 1.0.0-milestone.2-snapshot │
-      (_,_||_,_)   ╰─────────────────────────────────────╯
+       ,       ,  /\_[]_/\
+       |\ ___ /| |] _||_ [|
+        -/___\-   \/ || \/
+        (|o o|)      ||
+      __/{\U/}\_ ___/vvv
+     / \  {~}   / _|_ |
+     | /\  ~   /_/   []
+     |_| (____)     ╭────────────────────────────╮
+     \_]/______\    │    Viking's CLI Tools.     │
+        _\_||_/_    │ Version: 1.0.0-milestone.2 │
+       (_,_||_,_)   ╰────────────────────────────╯
   [Viking's CLI Tools] Clean up finished.
 ```
 
-_See code: [src/commands/cleanup-projects.ts](https://github.com/whyking/viking-tool/blob/v1.0.0-milestone.2-snapshot/src/commands/cleanup-projects.ts)_
+_See code: [src/commands/cleanup-projects.ts](https://github.com/whyking/viking-tool/blob/v1.0.0-milestone.2/src/commands/cleanup-projects.ts)_
 
 ## `viking-tool help [COMMAND]`
 
@@ -95,5 +95,5 @@ USAGE
   $ viking-tool quote
 ```
 
-_See code: [src/commands/quote.ts](https://github.com/whyking/viking-tool/blob/v1.0.0-milestone.2-snapshot/src/commands/quote.ts)_
+_See code: [src/commands/quote.ts](https://github.com/whyking/viking-tool/blob/v1.0.0-milestone.2/src/commands/quote.ts)_
 <!-- commandsstop -->
